@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  /*agregado en zoom clase 17 del 11-01*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*
+    box-shadow: inset -10px 0 25px gray;
+*/
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #FFFFFF;
+    padding: 25px 0px;
+    box-shadow: 0 0 29px 0 rgb(134, 134, 134, 0.25);
+    
+}
+
+.barranav{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  
+}
+.pointerheader{
+    color:black;
+    padding: 15px 40px;
+    display: inline-block;
+
+    cursor: pointer;
+    
+    /*cambiar de color al pasar cursor*/
+}
+.violeta{
+    background-color: #8338EC;
+    color: white; 
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    transition: 0,2s;
+}
+
+.seccionuno{
+    color: red;
+    height: 650px;
+    width: 100%;
+}
