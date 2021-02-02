@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--COMIENZO BARRA HEADER-->
     <header>
         <nav>
             <div class="barranav">
@@ -14,17 +15,82 @@
                     <li class="pointerheader">HOLA</li>
                     <li class="pointerheader">CONOCIMIENTOS</li>
                     <li class="pointerheader">PROYECTOS</li>
-                    <li class="pointerheader violeta">CONTACTO</li>
+                    <li class="pointerheader verde">CONTACTO</li>
                </ul>
             </div>
         </nav>
     </header>
+   <!--FIN BARRA HEADER --> 
+
+    
     <main>
-       <section class="background seccionuno">HOLA SOY</section>
+     <!-- COMIENZO HOLA SOY MICKY-->
+        
+        <section class="background seccionuno">
+           <div class="flexRow">
+               <div class="">
+                    <p class="holaSoy">¡Hola! soy</p>
+                    <h1 class="micky">Micky</h1>
+                    <p>Desarrolladora, ecologista, amante de la naturaleza y la comida casera</p>
+                        <a href="" class="pointerheader verde">LO QUE HAGO</a>
+                </div>
+                <div class="imgPrincipal">
+                    <img src="imagenes/undraw_work_in_progress_uhmv.png" alt="">
+                </div>
+            </div>
+        </section>
+       
+     <!--MIS CONOCIMIENTOS-->  
        <section class="background COLOR DE FONDO">MIS CONOCIMIENTOS</section>
+       <!--""-->
        <section class="background COLOR DE FONDO">"</section>
+       <!--MIS PROYECTOS-->
        <section class="background COLOR DE FONDO">MIS PROYECTOS</section>
-       <section class="background COLOR DE FONDO">FORMULARIO</section>
+      
+      
+       <!--FORMULARIO--> 
+       <section class="background COLOR DE FONDO"> 
+          <div class="flexRow">
+                <div class="contactame">
+                    <p>Contactame</p>   
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel et natus accusamus earum, sit ex perspiciatis, consequuntur hic qui blanditiis ratione eligendi eveniet nobis facilis dicta itaque molestiae vero?</p>
+                    <ul>
+                        <li>aca va twitter</li>
+                        <li>aca va github</li>
+                        <li>aca va linkedin</li>
+                        <li>aca va gmail</li>
+                    </ul>
+                </div>   
+
+                <div class="escribime">
+                    <p class="contact">Escribime</p>
+                    <form>
+                        <div class="flexRow">
+                            <label  for="idnombre">Nombre *</label>
+                            <input type="text" name="nombre" placeholder=" p. ej.: Ivana Micaela" id="idnombre" required>
+                        </div>
+
+                        <div class="columns magin">
+                            <label for="idapellido">Apellido *</label>
+                            <input type="text"  name="apellido" placeholder=" p. ej.: Doña" id="idapellido" required>
+                        </div>
+                
+                        <div class="columns">
+                           <label  for="idemail">Email *</label>
+                           <input   class="casillero" type="email" name="email" placeholder="p. ej.: imd.mica@gmail.com" id="idemail" required>
+                        </div>
+                    
+                       <div class="columns">
+                          <label for="idmensaje">Mensaje *</label>
+                          <textarea  name="mensaje" id="idmensaje" cols="30" rows="10" placeholder="Escriba un mensaje aqui" required></textarea><br><br>
+                        </div>
+                
+                        <button  class="botonsubmit" type="submit">Enviar</button>
+                    </form>    
+                </div>
+            </div>    
+       </section>
+       <!--FOOTER-->
        <section class="background COLOR DE FONDO">FOOTER</section>
     </main>
 </body>

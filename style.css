@@ -31,13 +31,13 @@ header{
     color:black;
     padding: 15px 40px;
     display: inline-block;
-
+    text-decoration: none;
     cursor: pointer;
     
     /*cambiar de color al pasar cursor*/
 }
-.violeta{
-    background-color: #8338EC;
+.verde{
+    background-color: #1BBF3B;
     color: white; 
     cursor: pointer;
     padding: 15px 40px;
@@ -47,9 +47,40 @@ header{
     align-items: center;
     transition: 0,2s;
 }
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.holaSoy{
+    font-size: 30px;
+    font-weight: 800;
+}
 
+.micky{
+    color: #1BBF3B;
+}
 .seccionuno{
-    color: red;
-    height: 650px;
-    width: 100%;
+   align-items: center;
+   justify-content: space-between;
+}
+ .imgPrincipal{
+  /*esto no se para que es, lo vi en el Original*/
+    max-width: 500px;
+ }
+
+
+/*FORMULARIO*/
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactame{
+    text-align: left;
 }
