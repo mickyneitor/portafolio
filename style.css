@@ -88,3 +88,29 @@ h1{
 .contactame{
     text-align: left;
 }
+
+/*FOOTER INICIO*/
+
+footer{
+    background-color: #1BBF3B;
+}
+
+.iconos-redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.iconos-redes ul li {
+    display: inline-block;
+    
+    
+}
+.iconos-redes:hover {
+ 
+    color:#1BBF3B;
+    
+}
+/*FOOTER FIN*/
