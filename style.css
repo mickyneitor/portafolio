@@ -207,7 +207,7 @@ h1{
 
 /* FIN MIS CONOCIMIENTOS*/
 
-/*INICIO SECCION FRASE*/
+/*INICIO SECCION FRASE "*/
 
 .seccionFrase {
     width: 100%;
@@ -247,8 +247,132 @@ h1{
     font-weight: 900;
   }
 
+/*FIN SECCION FRASE ""*/
 
-/*FORMULARIO*/
+
+/*COMIENZO MIS PROYECTOS*/
+.proyectos {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.divProyectos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 110px;
+}
+
+.h2proyectos {
+    font-size: 45px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.pProyectos {
+    width: 40%;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.divCardsProyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.aCardsProyectos {
+    width: 30%;
+    margin: 0.75em;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+}
+
+.aCardsProyectos:hover {
+    border: 1px solid #1BBF3B;
+}
+
+.aCardsProyectos:active {
+    box-shadow: 0 0 10px 0 #1BBF3B;
+}
+
+.imgProyectos {
+    width: 100%;
+}
+
+.imgPortfolioProyectos {  
+    height: 70%;
+    margin-top: 40px; /*corrección de posicionamiento letras*/
+}
+
+
+.imgTodoappProyectos {  
+    margin-top: 20px;  /*corrección de posicionamiento letras*/
+}
+
+.pCardsProyectos {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+  }
+
+/*FIN MIS PROYECTOS*/
+
+
+/* COMIENZO FORMULARIO*/
+
+.seccionContacto {
+    padding-bottom: 40px;
+    padding-top: 100px;
+    font-size: 1.3em;
+    width: 100%;
+  }
+
+.divFormularioColumna {
+    display: flex;
+    border: 1px solid #b1aaaa;
+    border-radius: 15px;
+    text-align: left;
+    padding: 80px 60px;
+    background-color: rgb(194, 206, 206);
+    color: black;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+.divContactame {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.columna{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pContactame {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+
+  .pLoremFormulario {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /**********************************HASTA AQUI LLEGAMOSSSSSSSSSSSSSSSSSSSSSSSS BIENNNNNNNNNNNNNNNNNNN
+*****************************************/
+
 
 .flexColumn{
     display: flex;
