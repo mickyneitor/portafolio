@@ -11,46 +11,69 @@
 }
 
 body{
-    font-size: 16px;
+    font-size: 1.4 rem;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
 }
 
-/*Barra Header ->*/
+/*BARRA HEADER COMIENZO ->*/
 
 header{
-    background-color: #FFFFFF;
     padding: 25px 0px;
     box-shadow: 0 0 29px 0 rgb(134, 134, 134, 0.25);
-    
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: 15%;
+    font-size: 1rem;
 }
 
-.barranav{
-    padding: 5px;
+.menu-header{
     display: flex;
-    justify-content: center;
-  
+    justify-content: flex-end;
+    line-height: 2.5;
 }
-.pointerheader{
-    color:rgb(8, 4, 4);
-    padding: 15px 40px;
-    display: inline-block;
-    text-decoration: none;
+
+ul{
+    list-style: none;
+}
+
+.li-header{
+    margin: 0 20px;
+}
+
+.a-header{
     cursor: pointer;
-    
-    /*cambiar de color al pasar cursor*/
+    text-decoration: none;
+    color: black;
 }
-.verde{
+     
+.a-header:hover{  /*efecto al pasar mouse*/
+    color: #1BBF3B;
+}
+
+.boton-verde{
     background-color: #1BBF3B;
     color: white; 
     cursor: pointer;
     padding: 15px 40px;
     border-radius: 100px;
+    border: none;
     font-weight: 500;
-    justify-content: center;
-    align-items: center;
-    transition: 0,2s;
 }
+
+.boton-verde:active {
+    outline: none;
+    border: none;
+  }
+
+/*BARRA HEADER FIN*/
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 h1{
     font-size: 60px;
     font-weight: 900;
@@ -66,6 +89,7 @@ h1{
 .seccionuno{
    align-items: center;
    justify-content: space-between;
+   width: 100%;
    }
  .imgPrincipal{
   /*l*/
