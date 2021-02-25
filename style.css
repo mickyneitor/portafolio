@@ -68,6 +68,10 @@ ul{
     border: none;
   }
 
+.boton-verde:hover{
+    opacity: 0.7;
+}
+  
 /*BARRA HEADER FIN*/
 
 
@@ -333,26 +337,29 @@ h1{
     padding-top: 100px;
     font-size: 1.3em;
     width: 100%;
+    background-color:rgb(235, 243, 237);
   }
 
 .divFormularioColumna {
-    display: flex;
-    border: 1px solid #b1aaaa;
-    border-radius: 15px;
-    text-align: left;
-    padding: 80px 60px;
-    background-color: rgb(194, 206, 206);
-    color: black;
-    width: 90%;
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  border: 1px solid rgba(30, 83, 17, 0.25);
+  border-radius: 15px;
+  text-align: left;
+  padding: 80px 60px;
+  background-color: white;
+  color: black;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
 }
 
+
 .divContactame {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
+
 
 .columna{
     width: 100%;
@@ -360,30 +367,100 @@ h1{
     align-items: flex-start;
 }
 
-.pContactame {
+.pGrandeFormulario {
     margin-bottom: 20px;
     font-size: 2em;
-  }
+    font-weight: 800;
+}
 
-  .pLoremFormulario {
+.pLoremFormulario {
     width: 70%;
     margin-top: 20px;
-  }
+}
 
-  /**********************************HASTA AQUI LLEGAMOSSSSSSSSSSSSSSSSSSSSSSSS BIENNNNNNNNNNNNNNNNNNN
-*****************************************/
+/*section contact-section???*/
 
-
-.flexColumn{
+.ulFormulario{
+    cursor: pointer;
     display: flex;
+    align-items: left;
+    color: black;
+    margin-top: 20px;
+    text-decoration: none;
     flex-direction: column;
 }
 
-
-
-.contactame{
-    text-align: left;
+.liFormulario{
+    display: flex;
+    margin: 5px 0;
 }
+
+.aFormulario {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.aFormulario:hover {
+    color: #1BBF3B;
+}
+
+.iFormulario {
+    margin-right: 10px;
+    background-color: rgb(194, 206, 206);
+    color: #1BBF3B;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.iFormulario:hover {
+
+    background-color: #1BBF3B;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.divEscribime {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+.divEscrbimeNombreApellido{
+   display: flex;
+}
+
+.formgrow {
+    flex-grow: 1;
+  }
+
+input {
+    outline: none;
+    background-color: #EBF3ED;
+    font-size: 1.3rem;
+}
+
+input:hover {
+    background-color: rgb(238, 245, 219);
+    box-shadow: 0px 0px 15px 0px  #1BBF3B;
+    transition: 0.2s;
+}
+
+textarea{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1.3rem;
+    outline: none;
+    background-color: #EBF3ED;
+}
+
+
+
 
 /*FOOTER INICIO*/
 
