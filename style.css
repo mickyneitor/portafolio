@@ -19,6 +19,7 @@ body{
 /*BARRA HEADER COMIENZO ->*/
 
 header{
+    background-color: white;
     padding: 25px 0px;
     box-shadow: 0 0 29px 0 rgb(134, 134, 134, 0.25);
     position: fixed;
@@ -460,13 +461,25 @@ textarea{
 }
 
 
-
-
 /*FOOTER INICIO*/
 
 footer{
     background-color: #1BBF3B;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    font-size: 1.2rem;
 }
+
+.divFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+}
+
 
 .iconos-redes{
     display: flex;
