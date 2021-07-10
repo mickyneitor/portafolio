@@ -80,14 +80,19 @@ ul{
 
 
 /*COMIENZO HOLA SOY MICKY*/
-
-.flexRow{
+.seccionHolaSoyMicky{
+    display: flex;
+    margin-top: 90px;
+    padding: 110px 40px 130px;
+    justify-content: center;
+}
+ .flexRow{
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
-    width: 100%;
     align-items: center;
     justify-content: space-between;
+    padding: 100px;
+
 }
 
 .div2holasoymicky {
@@ -118,6 +123,7 @@ h1{
 }
 
 .imgPrincipal{
+    display: flex;
 
    }
   
